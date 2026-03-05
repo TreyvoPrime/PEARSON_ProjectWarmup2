@@ -19,7 +19,7 @@ console.log(describeRoom("kitchen"));
 console.log(describeRoom("storage"));
 
 const exampleNode = {
-    image: "./images/hallway.jpg",
+    image: "./Images/hallway.jpg",
     text: "You are in the hallway of a spooky house. There are skeleton remnants of what has happened here.",
     choices: ["Go to the kitchen","Climb to the attic","Enter the storage room"]
 };
@@ -29,19 +29,19 @@ console.log(exampleNode.text);
 console.log(exampleNode.choices);
 
 const storageNode = {
-    image: "./images/storage.jpg",
+    image: "./Images/storage.jpg",
     text: "You are in a dark storage room filled with old furniture and dust.",
     choices: ["Return to the hallway" ]
 };
 
 const atticNode = {
-    image: "./images/attic_stairs.webp",
+    image: "./Images/attic_stairs.webp",
     text: "You are at the attic stairs. The wooden floor creaks beneath your feet.",
     choices: ["Go back downstairs"]
 };
 
 const kitchenNode = {
-    image: "./images/kitchen.webp",
+    image: "./Images/kitchen.webp",
     text: "You are in the kitchen. Rusted utensils and broken cabinets surround you.",
     choices: ["Return to the hallway"]
 };
